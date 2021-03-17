@@ -1,0 +1,142 @@
+
+body {
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masthead {
+    padding: 6em 0;
+    background-image: url('../img/code1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.masthead-heading {
+    margin-top: -0.2em;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.masthead div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.masthead div ul {
+    list-style-type: none;
+}
+
+.masthead div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.double-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+}
+
+.left-column {
+  background-color: rgb(191, 191, 218);
+  height: auto;
+}
+
+.right-column {
+    height: auto;
+    background-color: rgb(194, 212, 194);
+}
+
+.rigel{
+    
+    margin: 10px auto;
+    max-height: 10%;
+    max-width: 10%;
+}
+
+.css-basic {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightblue;
+    color: #ffffff;
+}
+
+.css-advanced {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightblue;
+    color: #ffffff;
+}
+
+.java-script {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightblue;
+    color: #ffffff;
+}
+
+.css-basic img {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.css-advanced img {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.java-script img {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.css-basic img:hover {
+    filter: opacity(.5);
+}
+
+.css-advanced img:hover {
+    filter: opacity(.5);
+}
+
+.java-script img:hover {
+    filter: opacity(.5);
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
