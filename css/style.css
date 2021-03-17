@@ -120,6 +120,7 @@ body {
 
 .css-basic img:hover {
     filter: opacity(.5);
+    border-image: green;
 }
 
 .css-advanced img:hover {
@@ -140,3 +141,22 @@ body {
 .footer h2 {
     font-size: 20px;
 }
+
+@media screen and (max-width: 992px) {
+    body {
+      background-color: rgb(0, 174, 255);
+    }
+    .css-basic img {
+        max-height: 100px;
+        max-width: 100px;
+    }
+    .css-advanced img {
+        max-height: 100px;
+        max-width: 100px;
+    }
+    
+    .java-script img {
+        max-height: 100px;
+        max-width: 100px;
+    }
+  }
